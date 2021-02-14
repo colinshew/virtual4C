@@ -4,6 +4,8 @@
 
 Plot interaction profiles of an arbitrary viewpoints from a .hic matrix. Example output:
 
+<img src=plot_ARHGEF35_1_5kb.png width="600" height="450" />
+
 ## Dependencies
 
 - Python3
