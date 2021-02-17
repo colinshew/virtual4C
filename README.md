@@ -2,7 +2,7 @@
 
 ## Description
 
-Plot interaction profiles of an arbitrary viewpoints from a .hic matrix. Example output:
+Plot interaction profiles of an arbitrary viewpoints (BED coordinates) from a .hic matrix. Example output:
 
 <img src=plot_ARHGEF35_1_5kb.png width="600" height="450" />
 
@@ -14,11 +14,11 @@ Plot interaction profiles of an arbitrary viewpoints from a .hic matrix. Example
 
 ## Contents
 
-**virtual4C.py**: Sums interactions (by default, normalized read counts) for a specified viewpoit in an intrachromosomal interaction matrix.
+**virtual4C.py**: Sums interactions (by default, normalized read counts) for a specified viewpoint in an intrachromosomal interaction matrix.
 
 **virtual4C_plot.R**: Plots virtual 4C profile from Python output.
 
-**v4c.sh**: Wrapper script for plotting virtual 4C profiles for an input .hic matrix and bed file of viewpoints. Usage documented here:
+**v4c.sh**: Wrapper script for plotting virtual 4C profiles for an input .hic matrix and BED file of viewpoints. Usage documented here:
 
 ```
 ./v4c.sh -h
